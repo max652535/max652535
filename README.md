@@ -7,7 +7,7 @@
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=max652535&langs_count=8)](https://github.com/anuraghazra/github-readme-stats)
 
-
+<img src="https://raw.githubusercontent.com/max652535/max652535/output/github-contribution-grid-snake.svg" />
 <h3 align="left">Connect with me:</h3>
 <p align="left">
 <a href="https://dev.to/maxmasto2" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/devto.svg" alt="maxmasto2" height="30" width="40" /></a>
