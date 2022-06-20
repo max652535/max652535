@@ -2,7 +2,7 @@
 
 
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=max652535&theme=radical)
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=max652535&theme=dark)
 
 
 <h3 align="left">Connect with me:</h3>
