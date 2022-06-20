@@ -1,5 +1,10 @@
 <h3 align="center">https://maxmasto2.tk/</h3>
 
+
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=max652535 &theme=radical)
+
+
 <h3 align="left">Connect with me:</h3>
 <p align="left">
 <a href="https://dev.to/maxmasto2" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/devto.svg" alt="maxmasto2" height="30" width="40" /></a>
