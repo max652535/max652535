@@ -8,7 +8,7 @@
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=max652535&langs_count=8)](https://github.com/anuraghazra/github-readme-stats)
 
 ![snake gif](https://github.com/max652535/max652535/blob/output/github-contribution-grid-snake.gif)
-![GitHub Snake dark](github-snake-dark.svg#gh-dark-mode-only)
+![GitHub Snake dark](github-snake-dark.git#gh-dark-mode-only)
 
 
 
