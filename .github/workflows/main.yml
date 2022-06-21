@@ -1,10 +1,13 @@
+- uses: Platane/snk@v2
+  with:
+    # github user name to read the contribution graph from (**required**)
+    # using action context var `github.repository_owner` or specified user
 Skip to content
 DEV Community
 Search...
 
-Create Post
-6
-
+Log in
+Create account
 
 54
 
@@ -15,7 +18,7 @@ Create Post
 Cover image for How to enable GitHub Actions on your Profile README for a snake-eating contribution graph 🐍
 Michelle Mannering
 Michelle Mannering
-Posted on Jun 28, 2021 • Updated on Feb 24
+Posted on 28 มิ.ย. 2564 • Updated on 24 ก.พ.
 
 How to enable GitHub Actions on your Profile README for a snake-eating contribution graph 🐍
 #
@@ -142,7 +145,7 @@ jobs:
       - uses: Platane/snk@master
         id: snake-gif
         with:
-          github_user_name: max652535
+          github_user_name: mishmanners
           # these next 2 lines generate the files on a branch called "output". This keeps the main branch from cluttering up.
           gif_out_path: dist/github-contribution-grid-snake.gif
           svg_out_path: dist/github-contribution-grid-snake.svg
@@ -466,21 +469,21 @@ Like
 Reply
 Code of Conduct • Report abuse
 Read next
-jonsy13 profile image
-E2E Dashboard at LitmusChaos
-Vedant Shrotria - Jun 9
+itsaomi profile image
+Get a free domain name for your projects.
+Its Aomi - Jun 16
 
-charliehexx profile image
-Important commands of git(Version Control System) every developer should know
-Aditya Patel - May 21
+hrishikesh1990 profile image
+Python Initialize List - How to do it?
+hrishikesh1990 - May 26
 
-makendrang profile image
-What is GitHub Copilot ?.
-MakendranG - May 30
+ghostinthewire5 profile image
+The Engineering Handbook
+Andrew - Jun 17
 
-codenameone profile image
-Remote Debugging and Developer Observability
-Shai Almog - Jun 8
+pwd9000 profile image
+Run Docker based GitHub runner containers on Azure Container Instances (ACI)
+Marcel.L - Jun 17
 
 
 Michelle Mannering
@@ -493,7 +496,7 @@ The University of Melbourne
 WORK
 Developer Advocate at GitHub
 JOINED
-May 29, 2020
+29 พ.ค. 2563
 More from Michelle Mannering
 Top tips for being a good online community member
 #opensource #tutorial #beginners #devops
@@ -533,7 +536,7 @@ jobs:
       - uses: Platane/snk@master
         id: snake-gif
         with:
-          github_user_name: mishmanners
+          github_user_name: max652535
           # these next 2 lines generate the files on a branch called "output". This keeps the main branch from cluttering up.
           gif_out_path: dist/github-contribution-grid-snake.gif
           svg_out_path: dist/github-contribution-grid-snake.svg
@@ -561,3 +564,16 @@ DEV Community — A constructive and inclusive social network for software devel
 Built on Forem — the open source software that powers DEV and other inclusive communities.
 
 Made with love and Ruby on Rails. DEV Community © 2016 - 2022.
+    # list of files to generate.
+    # one file per line. Each output can be customized with options as query string.
+    #
+    #  supported options:
+    #  - palette:     A preset of color, one of [github, github-dark, github-light]
+    #  - color_snake: Color of the snake
+    #  - color_dots:  Coma separated list of dots color.
+    #                 The first one is 0 contribution, then it goes from the low contribution to the highest.
+    #                 Exactly 5 colors are expected.
+    outputs: |
+      dist/github-snake.svg
+      dist/github-snake-dark.svg?palette=github-dark
+      dist/ocean.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
