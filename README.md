@@ -2,7 +2,7 @@
 
 
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=max652535&theme=dark)
+
 
 
 
